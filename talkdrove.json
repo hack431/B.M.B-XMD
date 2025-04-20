@@ -5,11 +5,11 @@
     "logo": "https://files.catbox.moe/p9hyal.jpg",
     "keywords": ["bot"],
     "documentation-link": "https://bmb-session-plag.onrender.com/pair",
-    "owner-verification": "tzsailas@gmail.com",  
+    "owner-verification": "undefeatable126@gmail.com",  
     "env": {
       "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with B.m.b-Xmd~  or get session id from here,  https://bmb-session-plag.onrender.com/pair",
-        "value":"",
+        "description": "B.m.b-Xmd~1ad3yaTI#ETQezJktgiPyEgcCChbtg3kyu1b7GojWRtvHFnZrWx8 ",
+        "value":"true",
         "required": true        
     },
       "PREFIX": {
@@ -29,18 +29,18 @@
     },        
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
-      "required": false,
-      "value": "false"  
+      "required": true,
+      "value": "true"  
    },      
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
       "required": false,
-      "value": "false"
+      "value": "true"
    }, 
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
       "required": false,
-      "value": "false"
+      "value": "true"
    }, 
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
@@ -55,17 +55,17 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": ""   
+      "value": "true"   
    },     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "𝐌𝐫 HansTz"
+      "value": "hack431"
    }, 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255767862457"
+      "value": "255677510751"
    }, 
     "BOT_NAME": {
       "description": "Type here the bot name.",
@@ -84,8 +84,8 @@
     }, 
       "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },    
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
@@ -94,8 +94,8 @@
     },
     "AUTO_TYPING": {
       "description": "Make it true if you want auto typing.",
-      "required": false,
-      "value": "false"
+      "required": true,
+      "value": "true"
     },
     "AUTO_REACT": {
       "description": "Make it true if you want react on every message.",
